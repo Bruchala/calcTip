@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(121, 113, 194);
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(45, 133, 74);
+  font-weight: 800;
+}
+
+.calculator {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(207, 198, 198);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 42px 13px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 42px 13px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 42px 13px rgba(66, 68, 90, 1);
+  border-radius: 3px;
+}
+
+p {
+  padding-top: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(45, 133, 74);
+  margin-left: 10px;
+  font-weight: 600;
+  height: 27px;
+}
+.label-price,
+.label-person,
+.label-tips {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
+  height: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+.check {
+  display: block;
+  position: relative;
+  left: 50%;
+  font-weight: 800;
+  font-size: 20px;
+  transform: translate(-50%, 25px);
+  width: 150px;
+  border: none;
+  height: 40px;
+  background-color: rgb(45, 133, 74);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+.label-tips {
+  padding-left: 7px;
+}
+
+.box-cost {
+  position: relative;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 10px;
+}
+.box-cost .cost {
+  height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
